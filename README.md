@@ -10,8 +10,7 @@ It will provide the user a final markdown summary with all sources used to gener
 
 Clone the repository then do a cd:
 ```shell
-cd local-deep-researcher
-```
+cd src/ollama_deep_researcher
 
 Then edit the `.env` file to customize the environment variables according to your needs. These environment variables control the model selection, search tools, and other configuration settings. When you run the application, these values will be automatically loaded via `python-dotenv` (because `langgraph.json` point to the "env" file).
 ```shell
